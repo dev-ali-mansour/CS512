@@ -3,4 +3,6 @@ project(CS512)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CS512 main.cpp)
+add_executable(CS512
+        linear_search/implementation.cpp
+)
