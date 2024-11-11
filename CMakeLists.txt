@@ -4,7 +4,7 @@ project(CS512)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(CS512
-#        section_2/linear_search/implementation.cpp
-#        section_2/binary_search/loop_implementation.cpp
-        section_2/binary_search/recursive_implementation.cpp
+#        lab_2/linear_search/implementation.cpp
+#        lab_2/binary_search/loop_implementation.cpp
+        lab_2/binary_search/recursive_implementation.cpp
 )
