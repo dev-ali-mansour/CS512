@@ -12,13 +12,13 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
     int index = linearSearch(arr, size, x);
     if (index == -1)
-        cout << x << " is not found" << std::endl;
+        cout << x << " is not found\n";
     else
         cout << x << " is found at index " << index << endl;
     return 0;
 }
 
-int linearSearch(const int arr[],int size, int x) {
+int linearSearch(const int arr[], int size, int x) {
     int index = -1;
     for (int i = 0; i < size; ++i) {
         if (arr[i] == x) {
