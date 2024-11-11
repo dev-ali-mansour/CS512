@@ -4,5 +4,6 @@ project(CS512)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(CS512
-        linear_search/implementation.cpp
+        #        linear_search/implementation.cpp
+        binary_search/loop_implementation.cpp
 )
